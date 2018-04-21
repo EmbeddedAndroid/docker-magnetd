@@ -12,6 +12,8 @@ RUN apt-get update && \
          libssl-dev \
          libgmp3-dev \
          libevent-dev \
+         software-properties-common \
+         python-software-properties \
          bsdmainutils
 
 RUN apt-get update && \
