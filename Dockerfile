@@ -6,6 +6,7 @@ RUN apt-get update && \
          libtool \
          automake \
          git \
+         wget \
          autotools-dev \
          autoconf \
          pkg-config \
