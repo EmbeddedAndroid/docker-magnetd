@@ -43,4 +43,4 @@ VOLUME ["/root/.magnet"]
 
 EXPOSE 17179 17177
 
-ENTRYPOINT ["/magnet/magnetd"]
+CMD /magnet/magnetd && tail -f /root/.magnet/debug.log
